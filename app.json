@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Little Lemon",
+    "slug": "little-lemon-food-ordering",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "backgroundColor": "#F7F5F0"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.littlelemon.foodordering"
+    },
+    "android": {
+      "package": "com.littlelemon.foodordering",
+      "adaptiveIcon": {
+        "backgroundColor": "#495E57"
+      }
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Little Lemon uses your photos so you can choose a profile picture.",
+          "microphonePermission": false
+        }
+      ],
+      "expo-sqlite"
+    ]
+  }
+}
